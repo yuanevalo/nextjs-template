@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nextjs Template
+
+## Features
+
+- [Typescript](https://www.typescriptlang.org/) - Typing
+- [Tailwindcss](https://tailwindcss.com/) - Styling
+- [eslint](https://eslint.org/) - Linting
+- [prettier](https://prettier.io/) - Formatting
 
 ## Getting Started
 
