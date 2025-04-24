@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 export default function RootLayout({
@@ -7,7 +9,15 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <header>
+                    <Header />
+                </header>
+                <div className="h-screen">{children}</div>
+                <footer>
+                    <Footer />
+                </footer>
+            </body>
         </html>
     );
 }
