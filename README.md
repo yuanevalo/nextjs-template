@@ -29,3 +29,11 @@ To format the code using Prettier and run linting with ESLint, execute the follo
 ```bash
 npx eslint --fix .
 ```
+
+# Run the Docker Image with Docker Compose
+
+To start your Next.js application using Docker Compose, run the following command in your project directory:
+
+```bash
+docker-compose up --build
+```
