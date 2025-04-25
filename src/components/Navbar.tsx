@@ -2,7 +2,7 @@
 import { AppBar, Toolbar, Typography, Button, Container } from "@mui/material";
 import { motion } from "motion/react";
 
-export default function Header() {
+export default function Navbar() {
     return (
         <motion.div
             initial={{ opacity: 0, y: -50 }}

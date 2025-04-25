@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -11,7 +11,7 @@ export default function RootLayout({
         <html lang="en">
             <body>
                 <header>
-                    <Header />
+                    <Navbar />
                 </header>
                 <div className="h-screen">{children}</div>
                 <footer>
